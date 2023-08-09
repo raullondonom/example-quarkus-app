@@ -315,6 +315,9 @@ build/
 gradle/
 gradlew
 gradlew.bat
+.gradle
+**/build/
+!src/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -336,3 +339,14 @@ gradle-app.setting
 # HPROF
 # -----
 *.hprof
+# Avoid ignore Gradle wrappper properties
+gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath

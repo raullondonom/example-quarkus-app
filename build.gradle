@@ -27,6 +27,8 @@ sonarqube {
         property "sonar.junit.reportsPath", ""
         property "sonar.java.coveragePlugin", "jacoco"
         property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
+        property "sonar.projectKey", "raullondonom_example-quarkus-app_AYm0LgXdMCW2k33nf_kH"
+        property "sonar.projectName", "example-quarkus-app"
     }
 }
 
